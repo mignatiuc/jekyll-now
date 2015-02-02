@@ -1,12 +1,13 @@
 ---
 layout: post
-title: OMG I have a blog!
+title: Iteration 1
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-Testestestestes
+ 
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+
+In the first iteration I have completed two exercises in order to familiarize
+with Ruby as well as compare it to Java/C#. The first problem was Prime Factorization, which was pretty easy to do both in Java and Ruby. I used straight-forward logic: divided the given number A by all possible factors B(starting at 2) and if A = 0 (MOD B) => I recorded B to the prime factor array and then assigned the value of (A mod B) to A.
+The same logic was initially used in Ruby code. It took more time since I had to get familiarized with the use of operators/operands/ and function definition/call first. However, after browsing Ruby manuals I stumbled on Prime class which provided the possibility of using prime_division() method. This was my first pleasant surprise brought by Ruby: the whole "algorithm" ended up being just one row of code:
+Prime.prime_division(n).flat_map { |a , b| [a]*b }
