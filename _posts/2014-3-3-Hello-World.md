@@ -1,5 +1,5 @@
 ---
-layout: Iteration 1
+layout: post
 title: Iteration 1
 ---
 
