@@ -5,7 +5,7 @@ title: Iteration 1
 
 In the first iteration I have completed two [excercises](http://mignatiuc.github.io/Hello-World/)  in order to familiarize
 with Ruby as well as compare it to Java/C#. The first problem was Prime Factorization, which was pretty easy to do both in Java and Ruby. I used straight-forward logic: divided the given number A by all possible factors B(starting at 2) and if A = 0 (MOD B) => I recorded B to the prime factor array and then assigned the value of (A mod B) to A.
-The same logic was initially used in Ruby code. It took more time since I had to get familiarized with the use of operators/operands/ and function definition/call first. However, after browsing Ruby manuals I stumbled on Prime class which provided the possibility of using prime_ division() method. This was my first pleasant surprise brought by Ruby: the whole "algorithm" ended up being just one row of code: 
+The same logic was initially used in Ruby code. It took more time since I had to get familiarized with the use of operators/operands/ and function definition/call first. However, after browsing Ruby manuals I stumbled on Prime class which provided the possibility of using prime _ division() method. This was my first pleasant surprise brought by Ruby: the whole "algorithm" ended up being just one row of code: 
 Prime.prime_ division(n). flat_map { |a , b| [a]*b }
 
 The second assignment was called Mars Rover Kata. It basically described the robot travelling on a sphere with grid coordinates.
